@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+  <head>
+    <title>第16回インタラ会 サンプル2</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100i,300i&display=swap" rel="stylesheet">
+    <style type="text/css">
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body, html {
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+      }
+
+      .main {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform-style: preserve-3d;
+      }
+
+      .list {
+        position: relative;
+        width: 100%;
+        height: 20vw;
+        perspective: 200vw;
+        perspective-origin: 50% 50%;
+      }
+
+      .item {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 10vw;
+        height: 20vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #F15E60;
+        border-radius: 2vw;
+        overflow: hidden;
+        backface-visibility: hidden;
+      }
+
+      .item .no {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 4vw;
+        color: #fff;
+        font-style: italic;
+        font-weight: 300;
+      }
+
+      .item .ttl {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5vw;
+        color: #fff;
+        font-style: italic;
+        font-weight: 100;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+    <div class="main">
+      <div class="list"></div>
+    </div>
+
+    <script src="../libs/jquery.min.js"></script>
+    <script src="../libs/TweenMax.js"></script>
+    <script src="../libs/utils.js"></script>
+    <script src="../libs/chroma.min.js"></script>
+    <script src="main.js"></script>
+
+  </body>
+</html>
