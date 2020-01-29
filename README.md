@@ -11,7 +11,7 @@ https://ikeryou.github.io/intr16/2/index.html
 イージングの名前はここ参考  
 https://greensock.com/docs/v2/Easing  
 
-- 可愛い、ポップ
+- 可愛い、ポップ  
 Elastic.easeOut.config(1, 0.75)  
 Back.easeIn.config(5)
   
