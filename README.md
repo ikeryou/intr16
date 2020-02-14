@@ -23,6 +23,6 @@ Sine
 Circ    
 Power1~3  
 
-- クール、スタイリッシュ
+- クール、スタイリッシュ  
 Expo  
 Power4
