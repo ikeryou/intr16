@@ -18,7 +18,7 @@ https://greensock.com/docs/v2/Easing
 Elastic.easeOut.config(1, 0.75)  
 Back.easeIn.config(5)
   
-- 上品
+- 上品  
 Sine  
 Circ    
 Power1~3  
